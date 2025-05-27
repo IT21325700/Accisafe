@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="lib/fontawesome/css/all.min.css">
+  <link rel="stylesheet" href="lib/bootstrap-4.5.3-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <title>Serenity</title>
+</head>
+
+<body style="background-color: #E9F7EF">
+  <!-- NavBar -->
+  <nav id="navmenu" class="navbar navbar-expand-lg sticky-top">
+    <a class="navbar-brand" href="#home">
+      <img src="Images/logo/Acci.jpeg" width="50" height="50" class="d-inline-block align-top" loading="lazy">
+      <span>AcciSafe</span></br>
+    </a>
+    <button id="nav-toggle" class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span id="nav-toggle-icon" class="fas fa-ellipsis-v"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul id="navmenu-links" class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Project Scope
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#project-scope">Literature Survey</a>
+            <a class="dropdown-item" href="#research_gap">Research Gap</a>
+            <a class="dropdown-item" href="#research_problem">Research Problem & Solution</a>
+            <a class="dropdown-item" href="#research_objectives">Research Objectives</a>
+            <a class="dropdown-item" href="#methodology">Methodology</a>
+            <a class="dropdown-item" href="#tech_used">Technologies</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#milestones">Milestones</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Downloads
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#downloads">Documents</a>
+            <a class="dropdown-item" href="#presentations">Presentations</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#achievements">Achievements</a>
+        </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Home -->
+  <section id="home">
+    <div class="container">
+      <div class="hero-cta">
+        <h1>Accident Identification and Notification system for smart city</h1>
+        <a class="btn btn-outline-light" type="button" href="#project-scope"><span class="btn-text">Learn
+            More</span><span class="fas fa-chevron-right btn-icon"></span></a>
+      </div>
+    </div>
+    <div class="hero-cover">
+      <img class="hero-image" src="Images/other/back.jpg" />
+    </div>
+  </section>
+  <!-- project-scope -->
+  <section id="project-scope" class="main-sections" style="background-color:#FDFEFE">
+    <div class="container">
+      <h5 class="section-headings">Project Scope</h5>
+      <!-- Literature Survey -->
+      <div id="literature" class="sub-section">
+        <h2>Literature Survey</h2>
+        <div class="row">
+          <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+            <div class="section-left">
+              <div class="section-info-div">
+                <div class="row">
+                  <div class="col-sm-5"><img src="Images/lit/1in8.png" width="80%" /></div>
+                  <div class="col-sm-7 text-col">The WHO states that 1 in 8 individuals (around 970 million
+                    people) has a diagnosed mental disorder <span style="color: grey; font-size: 12px;">[1]</span
+                      style="color: grey; font-size: 12px;"></div>
+                </div>
+              </div>
+              <div class="section-figure ">
+                <img style="align-items:center" src="Images/lit/Picture1.jpg" width="80%" />
+                <p class="Fig01">Figure 1. Anxiety and Depression Statistics during COVID-19 [2]</p>
+              </div>
+              <div class="section-figure ">
+                <img style="align-items:center" src="Images/lit/Picture2.png" width="80%" />
+                <p class="Fig01">Figure 2. Expenditure VS Population with Mental Illnesses [12]</p>
+              </div>
+            </div>
+          </div>
+          <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+            <p>The rapid growth of urbanization and vehicular density has brought forth critical concerns regarding road safety on a global scale. With expanding infrastructure, congested traffic conditions, and increasing reliance on vehicular transportation, road traffic accidents have emerged as one of the leading causes of death and injury worldwide. According to the World Health Organization (WHO), approximately 1.35 million people lose their lives every year due to road traffic crashes, and an estimated 20–50 million more sustain non-fatal injuries, often resulting in long-term disabilities. Road traffic injuries are the leading cause of death for children and young adults aged 5–29 years, which emphasizes the gravity of the situation.</p>
+            <p>Globally, the impact of road traffic accidents is not only measured by fatalities but also by the significant economic burden they place on countries. According to WHO, the economic cost of road traffic injuries is estimated to be between 1% and 3% of a country’s gross domestic product (GDP). Low- and middle-income countries are particularly affected, accounting for more than 90% of global road traffic deaths despite having approximately 60% of the world's vehicles. This disparity is largely due to the lack of robust road safety infrastructure, inadequate enforcement of traffic laws, and limited emergency response systems.</p>
+            <p>In Sri Lanka, road traffic accidents represent a major public health and safety issue. Statistics from the Sri Lanka Police Department and the National Council for Road Safety indicate that on average, six to eight fatalities occur every day due to road accidents. Annually, Sri Lanka reports over 3,000 deaths from traffic-related incidents, with tens of thousands more suffering injuries of varying severity. Despite legislative measures and awareness campaigns, the number of accidents remains high, raising concerns over the effectiveness of existing road safety mechanisms. </p>
+            <p>In the field of text-based image generation, notable systems have emerged, each with distinctive
+              features. DALL·E [10], developed by OpenAI, is a pioneering model that seamlessly blends GAN architecture
+              with Transformer models to create images based on textual descriptions. For example, it can transform text
+              prompts into vivid images, such as "a Male Lion walking in the jungle." Another remarkable system, AttnGAN
+              [11], excels at generating highly detailed and coherent images from text descriptions. AttnGAN uses global
+              and local attention mechanisms to refine the generated images, making it well-suited for creative
+              applications, especially in art generation.</p>
+            <div class="references">
+              <p class="pt-sm-1"><strong>References</strong></p>
+              <ol>
+                <li>Kessler, R.C., Haro, J.M., Heeringa, S.G., Pennell, B.E. and
+                  Üstün, T.B., 2006. The World Health Organization world mental health
+                  survey initiative. Epidemiology and Psychiatric Sciences, 15(3), pp.161-166.</li>
+                <li>
+                  Richter, F. (2022) Infographic: Pandemic causes spike in anxiety &amp; depression, Statista Daily
+                  Data. Available at:
+                  https://www.statista.com/chart/21878/impact-of-coronavirus-pandemic-on-mental-health/ (Accessed: 03
+                  November 2023).
+                </li>
+                <li>S. Sladojevic, M. Arsenovic, A. Anderla, D. Culibrk, and D. Stefanovic, “Deep Neural Networks based
+                  recognition of plant diseases by Leaf Image Classification,” Computational Intelligence and
+                  Neuroscience, vol. 2016, pp. 1–11, 2016.</li>
+                <li>
+                  U. S. Reddy, A. V. Thota and A. Dharun, "Machine Learning
+                  Techniques for Stress Prediction in Working Employees," 2018 IEEE
+                  International Conference on Computational Intelligence and Computing
+                  Research (I.C.C.I.C.), Madurai, India, 2018, pp. 1-4, doi:
+                  10.1109/ICCIC.2018.8782395
+                </li>
+                <li>
+                  P. S. Pandey, "Machine Learning and IoT for prediction and
+                  detection of stress," 2017 17th International Conference on Computational
+                  Science and Its Applications (I.C.C.S.A.), Trieste, Italy, 2017, pp. 1-5, doi:
+                  10.1109/ICCSA.2017.8000018
+                </li>
+                <li>
+                  Smith, A., Johnson, B., & Williams, C. (2019). Exploring the
+                  Benefits of Self-Reflection and Journaling in Mental Health Tracking.
+                  Journal of Psychology and Well-being, 25(2), 78-92
+                </li>
+                <li>
+                  A. Baharum, T. W. Seong, N. H. M. Zain, N. M. M. Yusop, M.
+                  Omar and N. M. Rusli, "Releasing stress using music mood application:
+                  DeMuse," 2017 International Conference on Information and
+                  Communication Technology Convergence (I.C.T.C.), Jeju, Korea (South),
+                  2017, pp. 351-355, doi: 10.1109/ICTC.2017.8191001
+                </li>
+                <li>
+                  Ohly, H., White, M.P., Wheeler, B.W., Bethel, A., Ukoumunne,
+                  O.C., Nikolaou, V. and Garside, R., 2016. Attention Restoration Theory: A
+                  systematic review of the attention restoration potential of exposure to natural
+                  environments. Journal of Toxicology and Environmental Health, Part B,
+                  19(7), pp.305-343.
+                </li>
+                <li>
+                  Hussain, S.A. and Al Balushi, A.S.A., 2020. A real time face
+                  emotion classification and recognition using deep learning model. In Journal
+                  of physics: Conference series (Vol. 1432, No. 1, p. 012087). I.O.P.
+                  Publishing
+                </li>
+                <li>
+                  M. Cahyadi, M. Rafi, W. Shan, H. Lucky and J. V. Moniaga,
+                  "Accuracy and Fidelity Comparison of Luna and DALL-E 2 DiffusionBased Image Generation Systems," 2023
+                  IEEE International Conference on
+                  Industry 4.0, Artificial Intelligence, and Communications Technology
+                  (IAICT), BALI, Indonesia, 2023, pp. 108-112, doi:
+                  10.1109/IAICT59002.2023.10205695.
+                </li>
+                <li>
+                  P. Sumi, S. Sindhuja and S. Sureshkumar, "A Comparison between
+                  AttnGAN and DF GAN: Text to Image Synthesis," 2021 3rd International
+                  Conference on Signal Processing and Communication (ICPSC), Coimbatore,
+                  India, 2021, pp. 615-619, doi: 10.1109/ICSPC51351.2021.9451789.
+                </li>
+                <li>
+                  Graham Meadows&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Professor of Adult
+                  Psychiatry, Joanne Enticott&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  Senior Research Fellow and Sebastian Rosenberg&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+                  &nbsp; &nbsp; Fellow (2023) Three charts on: Why rates of mental illness aren’t going down despite
+                  higher spending, The Conversation. Available at:
+                  https://theconversation.com/three-charts-on-why-rates-of-mental-illness-arent-going-down-despite-higher-spending-97534
+                  (Accessed: 27 December 2023).
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Research Gap -->
+      <div id="research_gap" class="sub-section">
+        <h2>Research Gap</h2>
+        <p>Following areas are the research gaps found in most of the recent researches.</p>
+        <div class="row mt-5 research-gap">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4">
+                <div class="fa-container text-center">
+                  <i class="fas fa-car-crash fa-3x " aria-hidden="true" style="color: green; "></i>
+                </div>
+                <div class="text-center" style="padding-top: 20px;">
+                  <h5>Accident Detection</h5>
+                </div>
+                <div>
+                  <p style="text-align: justify;">Traditional accident detection systems rely heavily on manual reporting, in-vehicle sensors, or witness intervention, which often leads to delayed emergency responses. 
+				  These delays can worsen injury outcomes and contribute to secondary accidents. Although machine learning and computer vision technologies have shown potential in real-time detection using CCTV feeds,
+				  many urban areas still lack systems that can automatically identify accidents and notify responders with minimal latency. There is a clear gap in deploying AI-powered accident detection models on edge 
+				  devices, which can perform on-site analysis and eliminate reliance on cloud processing delays.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="fa-container text-center">
+                  <i class="fas fa-solid fas fa-fire-extinguisher fa-3x " aria-hidden="true" style="color: green;"></i>
+                </div>
+                <div class="text-center" style="padding-top: 20px;">
+                  <h5>Fire detection</h5>
+                </div>
+                <div>
+                  <p style="text-align: justify;">Conventional fire detection in accident zones relies on static sensors or human reporting,
+				  which are insufficient in outdoor or large-scale accident environments. While drones and thermal cameras have been explored 
+				  for forest or industrial fire detection, their application in urban accident scenarios remains underutilized. Most systems 
+				  do not integrate AI-powered fire detection with drone surveillance to assess accident scenes in real time. Additionally, 
+				  long-range, low-power communication protocols like LoRa, which are ideal for transmitting drone data in smart city environments, 
+				  are rarely implemented alongside AI analytics—creating a critical gap in rapid, mobile fire hazard identification and response.</p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="fa-container text-center">
+                    <i class="fas fa-traffic-light fa-2x mr-2" style="color: green;"></i>
+                    <i class="fas fa-user-shield fa-2x" style="color: green;"></i>
+                </div>
+                <div class="text-center" style="padding-top: 20px;">
+                  <h5>Traffic and Crime Management</h5>
+                </div>
+                <div>
+                  <p style="text-align: justify;">
+                    Although some smart traffic systems use predictive analytics to manage congestion, they often operate independently of real-time incident data.
+					There is limited research on integrating live accident and fire detection into adaptive traffic control systems that dynamically change signal 
+					patterns to ease congestion. Similarly, current crime detection and surveillance systems typically function in silos, without linking to accident 
+					data that could indicate hit-and-runs or other criminal behavior. Furthermore, there is a lack of secure, decentralized platforms that enable real-time,
+					encrypted data sharing across traffic control, emergency services, and law enforcement. This disconnect creates inefficiencies in coordinated emergency
+					response and public safety efforts. </p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Research Problem -->
+      <div id="research_problem" class="sub-section">
+        <h2>Research Problem & Solution</h2>
+        <div class="row">
+          <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+            <h5><strong>Proposed Problem</strong></h5>
+            </br>
+            <h4 class="highlight">How can develop a fully integrated Accident and Fire Detection System that leverages AI, drones, and IoT to improve safety, 
+			optimize emergency response, and improve urban traffic management in Smart Cities?</h4>
+            <p></p>
+            <p style="text-align: justify;">In urban areas, accident detection and emergency response are often delayed due to reliance on manual reporting 
+			and isolated systems. These delays increase the risk of fatalities, secondary accidents, and traffic congestion. Traditional fire detection and 
+			crime monitoring are also not integrated with accident response, limiting overall effectiveness. There is a critical need for a unified, real-time 
+			system that uses machine learning, drones, and IoT to detect accidents, fires, and related crimes instantly—ensuring faster emergency response, 
+			improved traffic flow, and enhanced urban safety.</p>
+            </br>
+          </div>
+
+          <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5">
+            <div class="section-left">
+              <div>
+                <h5><strong>Proposed Solution</strong></h5>
+                </br>
+                <p style="text-align: justify;">overcome the limitations of traditional accident response systems, this research proposes an integrated Accident 
+				Identification and Notification System powered by Machine Learning (ML), drones, and IoT communication. The system uses deep learning models deployed 
+				on edge devices (like Raspberry Pi) to analyze live CCTV footage and detect accidents in real time. Once an incident is detected, it triggers automated 
+				alerts to emergency responders with minimal latency.
+				Additionally, drones equipped with thermal and infrared cameras are deployed to monitor accident scenes for fire hazards. These drones use AI-powered image 
+				processing and LoRa communication for long-range, reliable data transfer. The system also includes predictive traffic control to dynamically adjust signal 
+				timings and reduce congestion around accident sites.
+				A crime detection module with anomaly detection algorithms monitors for behaviors like hit-and-runs, while a blockchain-based data-sharing framework ensures 
+				secure communication between emergency services, law enforcement, and smart city infrastructure. This unified, intelligent platform aims to reduce emergency 
+				response times, improve traffic flow, and enhance public safety in urban environments.
+                </P>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+ <div id="research_objectives" class="sub-section">
+  <div class="container">
+    <h2 class="pb-5 pt-5 text-center mb-5 display-5">Research Objectives</h2>
+
+    <!-- Accident Detection -->
+    <div class="row mb-5">
+      <div class="col-md-12">
+        <div class="objective-box">
+          <h4><i class="fas fa-brain text-success mr-2"></i> Accident Detection</h4>
+          <p>The primary objective is to develop a real-time accident detection system that leverages machine learning and computer 
+          vision to analyze live CCTV footage. By deploying trained deep learning models on edge devices such as Raspberry Pi, 
+          the system will be capable of instantly identifying road accidents and triggering automated alerts to emergency responders. 
+          This will significantly reduce response time and improve the chances of saving lives and preventing secondary accidents.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Fire Detection -->
+    <div class="row mb-5">
+      <div class="col-md-12 text-right">
+        <div class="objective-box">
+          <h4><i class="fas fa-hand-holding-medical text-success mr-2"></i> Fire Detection</h4>
+          <p>This objective focuses on implementing a drone-based fire monitoring module capable of identifying fire hazards at accident scenes.
+          Drones equipped with thermal and infrared cameras will be integrated with AI-powered image processing algorithms to detect fires even 
+          under low-visibility conditions. Real-time alerts will be sent through LoRa communication to emergency services, enhancing situational 
+          awareness and improving the speed and accuracy of fire response operations.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Crime Detection -->
+    <div class="row mb-5">
+      <div class="col-md-12">
+        <div class="objective-box">
+          <h4><i class="fas fa-user-shield text-success mr-2"></i> Crime Detection</h4>
+          <p>This objective involves enhancing urban safety through the integration of machine learning-driven behavior analysis for crime detection. 
+          The system will monitor surveillance footage and sensor inputs to detect anomalies such as hit-and-run incidents or suspicious behavior at 
+          accident scenes. By correlating accident data with real-time surveillance, it supports law enforcement with timely, actionable insights 
+          for incident investigation and response.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Smart Traffic System -->
+    <div class="row mb-5">
+      <div class="col-md-12 text-right">
+        <div class="objective-box">
+          <h4><i class="fas fa-traffic-light text-success mr-2"></i> Smart Traffic System</h4>
+          <p>The system aims to optimize urban traffic flow by dynamically adjusting signal timings based on real-time accident and congestion data. 
+          Predictive models trained on historical traffic patterns and live inputs will identify accident-prone zones and current traffic density. 
+          This component will help minimize traffic build-up, reduce travel delays, and ensure safer road conditions following an incident.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <!-- Methodology -->
+      <div id="methodology" class="sub-section">
+        <h2>Methodology</h2>
+        <div class="row">
+          <div id="project-scope-left" class="col-md-6 col-sm-12 pt-lg-5">
+            <div class="section-left">
+              <div class="section-figure">
+                <img src="Images/other/system-overview.png" width="100%" height="100%" />
+                <p class="fig2">Figure 3. High Level Architecture of the System.</p>
+              </div>
+            </div>
+          </div>
+          <div id="project-scope-right" class="col-md-6 col-sm-12 pt-lg-5 justify-text">
+            <p>The proposed system consists of 4 main components. They are;</p>
+            <ol>
+              <li><strong>Stress Prediction Through Deep Learning.</strong></li>
+              <li><strong>AI based self reflective journaling and activity suggestion.</strong></li>
+              <li><strong>Facial Emotion Recognition & Video Recommendation.</strong></li>
+              <li><strong>Generate custom images from user text input.</strong></li>
+            </ol>
+            <p> The proposed system integrates four core components—accident detection, fire detection, behavior analysis, 
+			and predictive traffic management—into a unified, intelligent emergency response platform. The methodology begins 
+			with real-time data collection from CCTV cameras and drone surveillance. CCTV footage is analyzed through machine learning models, 
+			primarily Convolutional Neural Networks (CNNs), to detect accidents and identify risky driving behaviors. The footage undergoes 
+			preprocessing steps such as noise reduction and frame normalization to improve model accuracy and ensure timely detection. </p>
+            <p>For fire detection, drones equipped with thermal and infrared cameras are deployed to scan accident zones. These drones capture real-time imagery, 
+			which is then processed by trained ML models to detect fire hazards. The collected data is transmitted using low-power, wide-area network protocols
+			such as LoRa for reliable, long-distance communication.Simultaneously, behavioral analysis is performed using real-time surveillance and anomaly detection models 
+			to identify suspicious activities or accident-related crimes, such as hit-and-run cases. This module strengthens situational awareness and supports law enforcement 
+			through the detection of unusual behavioral patterns that may indicate criminal activity.All collected and processed data is centralized through a control system that 
+			serves as an interface between traffic management systems, emergency services, and government authorities. Predictive analytics modules within the system analyze 
+			historical and real-time traffic data to dynamically adjust signal timings and prevent congestion near the incident area. Data is stored in a secure database and 
+			shared across components via a decentralized architecture, ensuring confidentiality and real-time communication. The entire system is tested in simulated high-traffic environments, 
+			evaluating parameters such as detection accuracy, response speed, and coordination efficiency. Iterative feedback is used to fine-tune the models and optimize system performance
+			for real-world deployment in smart city infrastructures.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Technologies -->
+      <div id="tech_used" class="sub-section">
+        <h2>Technologies Used</h2>
+        <div class="row technology mt-5">
+          <div class="col-md-2 col-sm-4 col-6 mb-5">
+            <div class="avatar">
+              <img src="Images/tech/python.png" alt="Python">
+            </div>
+            <p>Python</p>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 mb-5">
+            <div class="avatar">
+              <img src="Images/tech/MQTT.jpg" alt="React">
+            </div>
+            <p>MQTT</p>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 mb-5">
+            <div class="avatar">
+              <img src="Images/tech/tensorflow.png" alt="Python">
+            </div>
+            <p>Tensorflow</p>
+          </div>
+          <!--div class="col-md-2 col-sm-4 col-6 mb-5">
+            <div class="avatar">
+              <img src="Images/tech/keras.png" alt="Keras">
+            </div>
+            <p>Yolo V8</p>
+          </div-->
+          <div class="col-md-2 col-sm-4 col-6 mb-5">
+            <div class="avatar">
+              <img src="Images/tech/YOLO.png" alt="MongoDB">
+            </div>
+            <p>Yolo V8</p>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 mb-5">
+            <div class="avatar">
+              <img src="Images/tech/firebase.png" alt="Firebase">
+            </div>
+            <p>Firebase</p>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 mb-5">
+            <div class="avatar">
+              <img src="Images/tech/googlecloud.png" alt="Google Cloud">
+            </div>
+            <p>Google Cloud</p>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 mb-5">
+            <div class="avatar">
+              <img src="Images/tech/android.png" alt="Kafka">
+            </div>
+            <p>Android Studio</p>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 mb-5">
+            <div class="avatar">
+              <img src="Images/tech/vscode.png" alt="Doker">
+            </div>
+            <p>VS Code</p>
+          </div>
+          <div class="col-md-2 col-sm-4 col-6 mb-5">
+            <div class="avatar">
+              <img src="Images/tech/colab.png" alt="Google Colab">
+            </div>
+            <p>Google Colab</p>
+          </div>
+          <!--div class="col-md-2 col-sm-4 col-6 mb-5">
+            <div class="avatar">
+              <img src="Images/tech/flask.png" alt="Google map API">
+            </div>
+            <p>Open CV</p>
+          </div-->
+          <div class="col-md-2 col-sm-4 col-6 mb-5">
+            <div class="avatar">
+              <img src="Images/tech/Opencv.png" alt="Jwt">
+            </div>
+            <p>Open CV</p>
+          </div>
+        </div>
+      </div>
+  </section>
+  
+  <!-- Milestones -->
+  <section id="milestones" class="main-sections">
+    <div class="container">
+      <h5 class="section-headings">Milestones</h5>
+      <div class="sub-section">
+        <h2>Timeline in Brief</h2>
+        <div class="milestones">
+          <ul class="timeline">
+            <li class="timeline-event">
+              <span class="traffic-light green"></span>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">March 2023</p>
+                <h3>Project Proposal</h3>
+                <p>A Project Proposal is presented to potential sponsors or clients to receive funding or get your project approved.</p>
+                <p><strong>Marks Allocated:</strong> 6</p>
+              </div>
+            </li>
+
+            <li class="timeline-event">
+              <span class="traffic-light yellow"></span>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">May 2023</p>
+                <h3>Progress Presentation I</h3>
+                <p>Reviews the 50% completion status of the project. Identifies any gaps or inconsistencies in the design/requirements.</p>
+                <p><strong>Marks Allocated:</strong> 6</p>
+              </div>
+            </li>
+
+            <li class="timeline-event">
+              <span class="traffic-light red"></span>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">August 2023</p>
+                <h3>Research Paper</h3>
+                <p>Describes contributions to knowledge and references the work that supports new discoveries.</p>
+                <p><strong>Marks Allocated:</strong> 10</p>
+              </div>
+            </li>
+
+            <li class="timeline-event">
+              <span class="traffic-light green"></span>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">September 2023</p>
+                <h3>Progress Presentation II</h3>
+                <p>Demonstrates the 90% completion status with a poster presentation summarizing the project.</p>
+                <p><strong>Marks Allocated:</strong> 18</p>
+              </div>
+            </li>
+
+            <li class="timeline-event">
+              <span class="traffic-light yellow"></span>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">October 2023</p>
+                <h3>Logbook</h3>
+                <p>Validates project status including Status documents 1 & 2 via logbook entries.</p>
+                <p><strong>Marks Allocated:</strong> 3</p>
+              </div>
+            </li>
+
+            <li class="timeline-event">
+              <span class="traffic-light green"></span>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">October 2023</p>
+                <h3>Final Report</h3>
+                <p>Evaluates the complete work including group, individual, and final reports.</p>
+                <p><strong>Marks Allocated:</strong> 19</p>
+              </div>
+            </li>
+
+            <li class="timeline-event">
+              <span class="traffic-light red"></span>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">October 2023</p>
+                <h3>Final Presentation & Viva</h3>
+                <p>Individual viva assesses each member’s contributions to the project.</p>
+                <p><strong>Marks Allocated:</strong> 20</p>
+              </div>
+            </li>
+
+            <li class="timeline-event">
+              <span class="traffic-light green"></span>
+              <div class="timeline-event-copy">
+                <p class="timeline-event-thumbnail">November 2023</p>
+                <h3>Website Assessment</h3>
+                <p>The website promotes the research project and provides all related information.</p>
+                <p><strong>Marks Allocated:</strong> 2</p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+    </div>
+	</section>
+  <!-- Downloads -->
+  <section id="downloads" class="main-sections">
+    <div class="container">
+      <h5 class="section-headings">Downloads</h5>
+      <!-- Documents -->
+      <div class="sub-section">
+        <h2>Documents</h2>
+        <p>Please find all documents related to this project below.</p>
+        <div class="row mt-sm-5 downloads-container">
+          <!-- Topic Assessment -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Topic Assessment</h5>
+                <p class="card-text pt-sm-2">Submitted on 2023/03/24</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://mysliit.sharepoint.com/:b:/s/CDAPSubmissionCloud/EVENAvZnOTJDsh-uezR31hwBVsh18RESWdZHaU4FUTLR-A?e=xRecEf"
+                    target="_blank">Download</a></li>
+              </ul>
+
+            </div>
+          </div>
+          <!-- Project Charter -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Charter</h5>
+                <p class="card-text pt-sm-2">Submitted on 2023/04/09</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/file/d/1n-hsjvM_dMpHdDq39vb7KisTdamm2Shp/view?usp=sharing"
+                    target="_blank">Download</a></li>
+              </ul>
+
+            </div>
+          </div>
+          <!-- Project Proposal -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Project Proposal</h5>
+                <p class="card-text pt-sm-2">Submitted on 2023/05/08</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Individual<a
+                    href="https://drive.google.com/drive/folders/1zWFCIPcpdIjla6KoH4c8PU0a5aRHwbdo?usp=sharing"
+                    target="_blank">Download</a></li>
+              </ul>
+
+            </div>
+          </div>
+          <!-- Status Documents -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents I</h5>
+                <p class="card-text pt-sm-2">Submitted on 2023/05/26</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Individual<a
+                    href="https://drive.google.com/drive/folders/19ejfXo5Py47OZwBWd0dYUzduEkd444Y5?usp=sharing"
+                    target="_blank">Download</a></li>
+              </ul>
+
+            </div>
+          </div>
+          <!-- Status Documents -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Status Documents II</h5>
+                <p class="card-text pt-sm-2">Submitted on 2023/09/07</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Individual<a
+                    href="https://drive.google.com/drive/folders/1mVQ2UWsYO7S4-GnekI2WedSrstCwQPkc?usp=sharing"
+                    target="_blank">Download</a></li>
+              </ul>
+
+            </div>
+          </div>
+          <!-- Research -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Research Paper</h5>
+                <p class="card-text pt-sm-2">Submitted on 2023/11/06</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1nSX3047Wiac_1-PrZEmQY0XSQrfK9ou8?usp=sharing"
+                    target="_blank">Download</a></li>
+              </ul>
+
+            </div>
+          </div>
+          <!-- Final Report -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-pdf mr-2 download-pdf"></i>Final Report</h5>
+                <p class="card-text pt-sm-2">Submitted on 2023/10/10</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1ZF2Upf40NfnSyPiLC33IxQAN2QeKBVtj?usp=sharing"
+                    target="_blank">Download</a></li>
+                <li class="list-group-item">Individual<a
+                    href="https://mysliit.sharepoint.com/:f:/s/CDAPSubmissionCloud/EtQ_UG0R-H5IkyH1luVg-Y4B1QkVpA9Ozx5X8YEPeObeNw?e=jbOREL"
+                    target="_blank">Download</a></li>
+              </ul>
+
+            </div>
+          </div>
+          <!-- Poster -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-image mr-2 download-image"></i>Poster</h5>
+                <p class="card-text pt-sm-2">Submitted on 2023/09/04</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1SD-ETZVi69JUmkyQFfMzyHQBc-0yfmLD?usp=sharing"
+                    target="_blank">Download</a></li>
+              </ul>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Presentations -->
+      <div id="presentations" class="sub-section">
+        <h2>Presentations</h2>
+        <p>Please find all presentations related this project below.</p>
+        <div class="row mt-sm-5 downloads-container">
+          <!-- Project Proposal -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Project
+                  Proposal</h5>
+                <p class="card-text pt-sm-2">Submitted on 2023/03/31</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1WznWQptsBmNAVhDyCd1YKW2EEusbxGBQ?usp=sharing"
+                    target="_blank">Download</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Progress Presentation I -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress
+                  Presentation I</h5>
+                <p class="card-text pt-sm-2">Submitted on 2023/05/25</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1Y1iNkfbP3ZcceajQewuWs8UCRahoGcbI?usp=sharing"
+                    target="_blank">Download</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Progress Presentation II -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Progress
+                  Presentation II</h5>
+                <p class="card-text pt-sm-2">Submitted on 2023/09/04</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1DjpHx5E0v1pOPC0dtwprexplvTGcRIlj?usp=sharing"
+                    target="_blank">Download</a></li>
+              </ul>
+            </div>
+          </div>
+          <!-- Final Presentation -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><i class="fas fa-file-powerpoint mr-2 download-powerpoint"></i></i>Final
+                  Presentation</h5>
+                <p class="card-text pt-sm-2">Submitted on 2023/10/30</p>
+              </div>
+              <ul class="download-items list-group list-group-flush">
+                <li class="list-group-item">Group<a
+                    href="https://drive.google.com/drive/folders/1c5JESncJaFKXp1MKhDm0y8i6zEnz1DcO?usp=sharing"
+                    target="_blank">Download</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="sub-section">
+        <h2>Commercialization</h2>
+        <div class="mt-sm-5 mb-5">
+          <center>
+            <video height="100%" , width="100%" controls poster="./Images/other/app-poster.png">
+              <source src="./promotional/appVid.mp4" type="video/mp4">
+            </video>
+          </center>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About Us -->
+  <section id="about" class="main-sections " style="background-color:#FDFEFE">
+    <div class="container">
+      <h5 class="section-headings">About Us</h5>
+      <div class="sub-section about-us-container ">
+        <h2>Meet Our Team !</h2>
+        <div class="row  mt-sm-5 ">
+          <!-- Supervisor -->
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card about-us-card">
+              <img src="Images/dp/supervisor.png" class="about-us-image supervisor" alt="Dr. Harindra fernando"
+                height="20%" width="100%" />
+              <div class="card-body">
+                <h5 class="card-title">Dr. Harindra fernando</h5>
+                </br>
+                <span class="badge badge-secondary">Supervisor</span>
+                <div class="text-group">
+                  <p>Sri Lanka Institute of Information Technology</p>
+                </div>
+                <div class="text-group">
+                  <p><strong>Department</strong></p>
+                  <p>Information Systems Engineering</p>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a class="card-text mr-4" style="cursor: pointer;"
+                    href="https://scholar.google.com/citations?hl=en&user=T71-cqEAAAAJ"><i
+                      class="fab fa-google mr-2"></i>G-Scholar</a>
+                  <a class="card-text mr-4" style="cursor: pointer;"
+                    href="https://www.linkedin.com/in/harinda-fernando-7655bb67/"><i
+                      class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                  <a class="card-text" style="cursor: pointer;" href="mailto:harinda.f@sliit.lk"><i
+                      class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Co Supervisor -->
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="card about-us-card">
+              <img src="Images/dp/cosupervisor.png" class="about-us-image cosupervisor" alt="Dr. Dilshan De Silva"
+                height="20%" />
+              <div class="card-body">
+                <h5 class="card-title">Ms. Shashika Lokuliyana</h5>
+                </br>
+                <span class="badge badge-secondary">Co-Supervisor</span>
+                <div class="text-group">
+                  <p>Sri Lanka Institute of Information Technology</p>
+                </div>
+                <div class="text-group">
+                  <p><strong>Department</strong></p>
+                  <p>Computer systems Engineering</p>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a class="card-text mr-4" style="cursor: pointer;"
+                    href="https://scholar.google.com/citations?user=jYixUrwAAAAJ&hl=en&oi=ao"><i
+                      class="fab fa-google mr-2"></i>G-Scholar</a>
+                  <a class="card-text mr-4" style="cursor: pointer;"
+                    href="https://www.linkedin.com/in/shashikalokuliyana/"><i
+                      class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                  <a class="card-text" style="cursor: pointer;" href="mailto:shashika.l@sliit.lk"><i
+                      class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        <div class="row  mt-sm-5" style="justify-content: center" >
+          <!-- Sahas -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card about-us-card">
+              <img src="Images/dp/Sahas.JPG" class="about-us-image " alt="Bandara H.M.S.I.D"
+                style="width: 80%; height: 20%;" />
+              <div class="card-body">
+                <h5 class="card-title">Bandara<br /> H.M.S.I.D</h5>
+                </br>
+                <span class="badge badge-secondary">Group Leader</span>
+                <div class="text-group">
+                  <p><strong>Undergraduate</strong></p>
+                  <p>Sri Lanka Institute of Information Technology</p>
+                </div>
+                <div class="text-group">
+                  <p><strong>Department</strong></p>
+                  <p>Computer Systems and network Engineering</p>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a class="card-text mr-4" style="cursor: pointer;"
+                    href="https://www.linkedin.com/in/sahas-bandara-024b81215/"><i
+                      class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                  <a class="card-text" style="cursor: pointer;" href="mailto:sahassbandara543@gmail.com"><i
+                      class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Thushan -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card about-us-card">
+              <img src="Images/dp/Thushan.png" class="about-us-image" alt="Maduhansa H.M.K.J.J"
+                style="width: 100%; height: 20%;" />
+              <div class="card-body">
+                <h5 class="card-title">Maduhansa <br />H.K.T.P</h5>
+                </br>
+                <span class="badge badge-secondary">Group Member</span>
+                <div class="text-group">
+                  <p><strong>Undergraduate</strong></p>
+                  <p>Sri Lanka Institute of Information Technology</p>
+                </div>
+                <div class="text-group">
+                  <p><strong>Department</strong></p>
+                  <p>Computer Systems and network Engineering</p>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a class="card-text mr-4" style="cursor: pointer;"
+                    href="https://www.linkedin.com/in/kelum-ayuwardhana-75bb57170/"><i
+                      class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                  <a class="card-text" style="cursor: pointer;" href="mailto:kelumayuwardhana@gmail.com"><i
+                      class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Shanaka -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card about-us-card">
+              <img src="Images/dp/Shanaka.png" class="about-us-image" alt="Jayasinghe S.S"
+                style="width: 100%; min-height: 20%;" />
+              <div class="card-body">
+                <h5 class="card-title">Jayasinghe<br /> S.S</h5>
+                </br>
+                <span class="badge badge-secondary">Group Member</span>
+                <div class="text-group">
+                  <p><strong>Undergraduate</strong></p>
+                  <p>Sri Lanka Institute of Information Technology</p>
+                </div>
+                <div class="text-group">
+                  <p><strong>Department</strong></p>
+                  <p>Software Engineering</p>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a class="card-text mr-4" style="cursor: pointer;"
+                    href="https://www.linkedin.com/in/manushi-rodrigo-b29b62221/"><i
+                      class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                  <a class="card-text" style="cursor: pointer;" href="mailto:manushishavindya@gmail.com"><i
+                      class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Rasara -->
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <div class="card about-us-card">
+              <img src="Images/dp/Rasara.png" class="about-us-image" alt="Samararathna A.K.S.R"
+                style="width: 100%; min-height: 40%; max-height: 40%;" />
+              <div class="card-body">
+                <h5 class="card-title">Samararathna <br />A.K.S.R</h5>
+                </br>
+                <span class="badge badge-secondary">Group Member</span>
+                <div class="text-group">
+                  <p><strong>Undergraduate</strong></p>
+                  <p>Sri Lanka Institute of Information Technology</p>
+                </div>
+                <div class="text-group">
+                  <p><strong>Department</strong></p>
+                  <p>Computer Systems and network Engineering </p>
+                </div>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                  <a class="card-text mr-4" style="cursor: pointer;" href="#"><i
+                      class="fab fa-linkedin-in mr-2"></i>LinkedIn</a>
+                  <a class="card-text" style="cursor: pointer;" href="mailto:sahassbandara543@gmail.com"><i
+                      class="fas fa-envelope-open-text mr-2"></i></i>E-Mail</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section id="contact" class="main-sections" style="background-color:#FDFEFE">
+    <div class="container">
+      <h5 class="section-headings">Contact Us</h5>
+      <div class="sub-section">
+        <h2>Get in Touch</h2>
+        <div class="row  mt-sm-5">
+          <div class="col-md-6 col-sm-12 contact-form">
+            <form action="MAILTO:appinfo.serenity@gmail.com" method="POST" enctype="text/plain">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="John Doe">
+              </div>
+              <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com">
+              </div>
+              <div class="form-group">
+                <label for="message">Message or Query</label>
+                <textarea class="form-control" id="message" rows="5"></textarea>
+              </div>
+              <button type="submit" class="btn btncolorgradient	">Submit</button>
+            </form>
+          </div>
+          <div class="col-md-6 col-sm-12 contact-details">
+            <div>
+              <p><strong>Contact Details</strong></p>
+              <p>For further queries please reach us at <a
+                  href="mailto: appinfo.serenity@gmail.com">appinfo.serenity@gmail.com</a></p>
+              <p>Hope Serenity made a positive difference in your mental well-being. Thank you!</p>
+              <p>-Team Serenity- </p>
+              <img class="footer_Logo" src="Images/logo/log.png" width="100%" height="100%" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Scripts -->
+  <script src="lib/jquery/jquery-3.5.1.slim.min.js"></script>
+  <script src="lib/fontawesome/js/all.min.js"></script>
+  <script src="lib/bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
